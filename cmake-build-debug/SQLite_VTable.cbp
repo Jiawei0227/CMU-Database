@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="SQLite_VTable"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;CMake Files\src\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Nightly">
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 Nightly"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Continuous">
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 Continuous"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Experimental">
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 Experimental"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vtable">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/lib/libvtable.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DSQLITE_THREADSAFE=2"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 vtable"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="vtable/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/lib/libvtable.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DSQLITE_THREADSAFE=2"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 vtable/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite3_shell">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin/sqlite3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DSQLITE_THREADSAFE=2"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 sqlite3_shell"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite3_shell/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin/sqlite3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DSQLITE_THREADSAFE=2"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 sqlite3_shell/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite3">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/lib/libsqlite3.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DSQLITE_THREADSAFE=2"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 sqlite3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sqlite3/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/lib/libsqlite3.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add option="-DSQLITE_THREADSAFE=2"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 sqlite3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="virtual_table_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/virtual_table_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 virtual_table_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="virtual_table_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/virtual_table_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 virtual_table_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/type_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 type_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="type_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/type_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 type_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tuple_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/tuple_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tuple_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tuple_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/tuple_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tuple_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="log_manager_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/log_manager_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 log_manager_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="log_manager_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/log_manager_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 log_manager_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_plus_tree_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/b_plus_tree_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 b_plus_tree_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_plus_tree_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/b_plus_tree_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 b_plus_tree_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lock_manager_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/lock_manager_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lock_manager_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lock_manager_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/lock_manager_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lock_manager_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_plus_tree_print_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/b_plus_tree_print_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 b_plus_tree_print_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_plus_tree_print_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/b_plus_tree_print_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 b_plus_tree_print_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_plus_tree_concurrent_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/b_plus_tree_concurrent_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 b_plus_tree_concurrent_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="b_plus_tree_concurrent_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/b_plus_tree_concurrent_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 b_plus_tree_concurrent_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extendible_hash_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/extendible_hash_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 extendible_hash_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="extendible_hash_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/extendible_hash_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 extendible_hash_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lru_replacer_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/lru_replacer_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lru_replacer_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lru_replacer_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/lru_replacer_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 lru_replacer_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rwmutex_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/rwmutex_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 rwmutex_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rwmutex_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/rwmutex_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 rwmutex_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffer_pool_manager_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/buffer_pool_manager_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 buffer_pool_manager_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="buffer_pool_manager_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/buffer_pool_manager_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 buffer_pool_manager_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="header_page_test">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/header_page_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 header_page_test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="header_page_test/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/header_page_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 header_page_test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/lib/libgtest.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/lib/libgtest.dylib" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/src/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/test/include"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party"/>
+					<Add directory="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/wangjiawei/Desktop/15-445-codingcat/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/buffer/buffer_pool_manager.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/buffer/lru_replacer.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/catalog/column.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/catalog/schema.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/common/config.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/concurrency/lock_manager.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/concurrency/transaction_manager.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/disk/disk_manager.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/hash/extendible_hash.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/include/sqlite/sqlite3.h">
+			<Option target="sqlite3"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/include/sqlite/sqlite3ext.h">
+			<Option target="sqlite3"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/index/b_plus_tree.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/index/b_plus_tree_index.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/index/index_iterator.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/logging/log_manager.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/logging/log_recovery.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/page/b_plus_tree_internal_page.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/page/b_plus_tree_leaf_page.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/page/b_plus_tree_page.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/page/header_page.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/page/table_page.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/sqlite/shell.c">
+			<Option target="sqlite3_shell"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/sqlite/sqlite3.c">
+			<Option target="sqlite3"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/table/table_heap.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/table/table_iterator.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/table/tuple.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/bigint_type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/boolean_type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/decimal_type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/integer_parent_type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/integer_type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/smallint_type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/tinyint_type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/value.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/type/varlen_type.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/vtable/virtual_table.cpp">
+			<Option target="vtable"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/buffer/buffer_pool_manager_test.cpp">
+			<Option target="buffer_pool_manager_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/buffer/lru_replacer_test.cpp">
+			<Option target="lru_replacer_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/common/rwmutex_test.cpp">
+			<Option target="rwmutex_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/concurrency/lock_manager_test.cpp">
+			<Option target="lock_manager_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/hash/extendible_hash_test.cpp">
+			<Option target="extendible_hash_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/index/b_plus_tree_concurrent_test.cpp">
+			<Option target="b_plus_tree_concurrent_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/index/b_plus_tree_print_test.cpp">
+			<Option target="b_plus_tree_print_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/index/b_plus_tree_test.cpp">
+			<Option target="b_plus_tree_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/logging/log_manager_test.cpp">
+			<Option target="log_manager_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/table/header_page_test.cpp">
+			<Option target="header_page_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/table/tuple_test.cpp">
+			<Option target="tuple_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/type/type_test.cpp">
+			<Option target="type_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/vtable/virtual_table_test.cpp">
+			<Option target="virtual_table_test"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock/gmock-gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/third_party/gmock/gmock_main.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/wangjiawei/Desktop/15-445-codingcat/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
