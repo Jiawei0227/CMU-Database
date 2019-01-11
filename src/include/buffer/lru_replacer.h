@@ -9,6 +9,8 @@
 
 #pragma once
 
+#include <unordered_map>
+#include <list>
 #include "buffer/replacer.h"
 #include "hash/extendible_hash.h"
 
@@ -30,7 +32,13 @@ public:
   size_t Size();
 
 private:
+
   // add your member variables here
+  mutable std::mutex mtx;
+
+  std::unordered_map<T, typename std::list<T>::iterator> hash;
+
+  std::list<T> list;
 };
 
 } // namespace cmudb
