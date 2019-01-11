@@ -10,8 +10,10 @@
 #pragma once
 
 #include <cstdlib>
-#include <vector>
 #include <string>
+#include <map>
+#include <mutex>
+#include <vector>
 
 #include "hash/hash_table.h"
 
@@ -19,6 +21,7 @@ namespace cmudb {
 
 template <typename K, typename V>
 class ExtendibleHash : public HashTable<K, V> {
+
 public:
   // constructor
   ExtendibleHash(size_t size);
@@ -33,7 +36,23 @@ public:
   bool Remove(const K &key) override;
   void Insert(const K &key, const V &value) override;
 
+  int BucketIndex(const K &key);
+
 private:
-  // add your own member variables here
+    class Bucket{
+    public:
+        int localDepth;
+        std::map<K, V> contents;
+
+        Bucket(int depth) : localDepth(depth){}
+    };
+
+    int globalDepth;
+    const size_t bucketSize;
+    int bucketCount;
+
+    std::vector<std::shared_ptr<Bucket>> bucketDirectory;
+
+    std::mutex mtx;
 };
 } // namespace cmudb
