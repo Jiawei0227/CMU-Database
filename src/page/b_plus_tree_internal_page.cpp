@@ -18,7 +18,16 @@ namespace cmudb {
  */
 INDEX_TEMPLATE_ARGUMENTS
 void B_PLUS_TREE_INTERNAL_PAGE_TYPE::Init(page_id_t page_id,
-                                          page_id_t parent_id) {}
+                                          page_id_t parent_id) {
+  this->SetPageType(IndexPageType::INTERNAL_PAGE);
+  this->SetSize(0);
+  this->SetPageId(page_id);
+  this->SetParentPageId(parent_id);
+
+  int max_size_ = (PAGE_SIZE - sizeof(BPlusTreeInternalPage))/sizeof(MappingType);
+  this->SetMaxSize(max_size_);
+
+}
 /*
  * Helper method to get/set the key associated with input "index"(a.k.a
  * array offset)
@@ -26,12 +35,17 @@ void B_PLUS_TREE_INTERNAL_PAGE_TYPE::Init(page_id_t page_id,
 INDEX_TEMPLATE_ARGUMENTS
 KeyType B_PLUS_TREE_INTERNAL_PAGE_TYPE::KeyAt(int index) const {
   // replace with your own code
-  KeyType key;
-  return key;
+  if(index < 0 || index > GetSize())
+    return {};
+  return array[index].first;
 }
 
 INDEX_TEMPLATE_ARGUMENTS
-void B_PLUS_TREE_INTERNAL_PAGE_TYPE::SetKeyAt(int index, const KeyType &key) {}
+void B_PLUS_TREE_INTERNAL_PAGE_TYPE::SetKeyAt(int index, const KeyType &key) {
+  if(index >= 0 && index < GetSize()){
+    array[index].first = key;
+  }
+}
 
 /*
  * Helper method to find and return array index(or offset), so that its value
@@ -39,7 +53,11 @@ void B_PLUS_TREE_INTERNAL_PAGE_TYPE::SetKeyAt(int index, const KeyType &key) {}
  */
 INDEX_TEMPLATE_ARGUMENTS
 int B_PLUS_TREE_INTERNAL_PAGE_TYPE::ValueIndex(const ValueType &value) const {
-  return 0;
+    for ( int i = 0 ; i<GetSize() ; i ++){
+        if(value == array[i].second )
+            return i;
+    }
+  return -1;
 }
 
 /*
@@ -47,7 +65,11 @@ int B_PLUS_TREE_INTERNAL_PAGE_TYPE::ValueIndex(const ValueType &value) const {
  * offset)
  */
 INDEX_TEMPLATE_ARGUMENTS
-ValueType B_PLUS_TREE_INTERNAL_PAGE_TYPE::ValueAt(int index) const { return 0; }
+ValueType B_PLUS_TREE_INTERNAL_PAGE_TYPE::ValueAt(int index) const {
+    if(index < 0 || index > GetSize())
+        return {};
+    return array[index].second;
+}
 
 /*****************************************************************************
  * LOOKUP
@@ -61,7 +83,17 @@ INDEX_TEMPLATE_ARGUMENTS
 ValueType
 B_PLUS_TREE_INTERNAL_PAGE_TYPE::Lookup(const KeyType &key,
                                        const KeyComparator &comparator) const {
-  return INVALID_PAGE_ID;
+    int b = 1;
+    int e = GetSize();
+    while(b < e) {
+        int mid = (b + e)/ 2;
+        if ( comparator(array[mid].first, key) == -1){
+            b = mid + 1;
+        }else{
+            e = mid;
+        }
+    }
+  return array[b-1].second;
 }
 
 /*****************************************************************************
